@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    background: pink;
+    padding: 20px;
+    min-height: 100vh;
+
+    /* Flexbox */
+    display: flex;
+    /* flex-direction: column; */
+
+    /* main axis */
+    justify-content: center;
+
+    /* alternate axis */
+    align-items: center;
+
+    /* gap */
+    gap: 20px;
+
+    /* wrapping */
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}

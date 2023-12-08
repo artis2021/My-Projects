@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1>Form Demo</h1>
+        <form action="/tacos">
+            <p>
+            <label for="username">enter Username</label>
+            <input type="text" placeholder="username" id="username">
+        </p>
+        <p>
+        <label for="password">Enter Password</label>
+            <input type="password"  placeholder="password" id="password">
+        </p>
+        <p>
+            <label for="color">Fill Your Color</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label for="number">Enter your favourite number</label>
+            <input type="number" placeholder="type a number" id="number">
+        </p>
+        <button type="submit">Submit</button>
+        <input type="submit"  value="Click me">
+        </form>
+        <form action="https://google.com">
+            <input type="text">
+        </form>
+
+        <form action="https://youtube.com/results">
+            <input type="text" name="search_query">
+            <button>Search Youtube</button>
+        </form>
+
+
+        <h2>More Checkbox</h2>
+        <form action="/birds">
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">I agree with you</label>
+            <button>Submit</button>
+            <p>
+                <label for="xs"XS></label>
+                <input type="radio" name="size" id="xs" value="xs">
+                <label for="X">X</label>
+                <input type="radio" name="size" id="X"  value="X">
+                <label for="L">L</label>
+                <input type="radio" name="size" id="L" value="L">
+                <label for="M">M</label>
+                <input type="radio" name="size" id="M"  value="M">
+            </p>
+
+            <p>
+                <label for="meal">Select you meal</label>
+                <select name="meal" id="meal">
+                    <option value="veg">Veg</option>
+                    <option value="non-veg" selected>non-veg</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="cheess">Amount of cheese</label>
+                <input type="range" id="cheess"  min="1" max="100" value="70" step="5" name="cheese">
+            </p>
+            <p>
+                <label for="feedback">More request..</label><br>
+                <textarea name="Request?" id="feedback" cols="30" rows="10" placeholder="please giive feedback"></textarea>
+            </p>
+            <h2>validation</h2>
+            <form action="/dummy">
+                <label for="first">Enter 1st name</label>
+                <input type="text" id="first" name="first"  required>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" minlength="5"  maxlength="15"  required>
+                <input type="email"  required>
+                <input type="url"  required>
+                <button>submit</button>
+            </form>
+        </form>
+    </div>
+</body>
+</html>
