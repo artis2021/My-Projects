@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url('https://images.unsplash.com/photo-1489769002049-ccd828976a6c?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.126);
+    padding: 20px 30px;
+    border: 2px white solid;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.149);
+    backdrop-filter: blur(3px);
+    gap: 30px;
+}
+
+input,button{
+    border: none;
+    outline: none;
+    padding: 15px 25px ;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
+
+input:focus{
+    outline: 2px solid rgba(0, 0, 255, 0.515);;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.515);
+    color: white;
+    transition: 0.3s ease all;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 255, 0.873);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+

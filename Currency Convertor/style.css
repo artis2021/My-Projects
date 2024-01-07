@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    /* background-color: #222; */
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://images.unsplash.com/photo-1617791160536-598cf32026fb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.559);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.229);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.559);
+}
+
+input, select, option, button{
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.229);
+    border: 1px solid rgba(255, 255, 255, 0.559);
+    /* color: white;
+    background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    width: 250px;
+}
+
+button{
+    margin: 0 auto;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+
+}
+
+button{
+    transition: 0.3s ease all;
+    border-radius: 70px;
+}
+
+option{
+    color: black;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.667);
+    color: black;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+#output{
+    border-radius: 10px;
+    /* background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    padding: 20px;
+}
+
